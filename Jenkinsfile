@@ -2,10 +2,10 @@
 pipeline {
     agent any
     stages {
-        stag('Bilxd') {
+        stage('Build') {
             steps {
                 build 'PES2UG22CS428-1'
-                sh 'g++ main.cpp -o output'
+                sh 'g++ mai.cpp -o output'
             }
         }
 
